@@ -15,7 +15,6 @@ public class StringTest {
         int year = DateParser.parseYear(input);
 
         Assertions.assertEquals(19, day);
-        //Assertions.assertEquals(10, month);
         Assertions.assertEquals(2021, year);
     }
 

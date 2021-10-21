@@ -26,6 +26,12 @@ public class DateParser {
     }
 
     public static int parseMonth(String input) {
+        if (input == null) {
+            throw new IllegalArgumentException();
+        }
+
+        // TODO: Implementierung
+
         return 0;
     }
 
