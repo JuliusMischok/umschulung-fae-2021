@@ -22,6 +22,7 @@ public class DateParser {
         String dayString = input.substring(0, indexOfDot);
 
 
+
         return Integer.parseInt(dayString);
     }
 
