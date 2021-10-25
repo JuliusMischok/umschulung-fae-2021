@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
@@ -9,6 +10,12 @@ public class DateParser {
 
     public static void main(String[] args) {
         String hello = "Hello world Hello wo";
+
+        String[] helloArr = hello.split("\\ ");
+        List<String> helloList = Arrays.asList(helloArr);
+        List<String> helloList1 = Arrays.asList(hello.split("\\ "));
+
+
 
         if (hello.length() >= 20) {
             System.out.println("#" + hello.substring(20) + "#");
